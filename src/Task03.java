@@ -1,8 +1,8 @@
-public class Task01
+public class Task03
 {
     public static void main()
     {
-        for (int i = 0; i <= 30; i++)
+        for (int i = 0; i <= 18; i+=3)
         {
             System.out.print(i + "\t");
         }
