@@ -6,9 +6,8 @@ public class Task05
         {
             for(int j = 0; j < 5; j++)
             {
-                System.out.print("*" + " ");
-                if(i==j)
-                    break;
+                if(i>=j)
+                    System.out.print("*" + " ");
             }
             if(i<4)
                 System.out.print("\n");
